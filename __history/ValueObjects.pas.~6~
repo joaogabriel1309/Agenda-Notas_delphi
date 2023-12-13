@@ -1,0 +1,26 @@
+unit ValueObjects;
+
+interface
+
+uses
+   system.SysUtils;
+type
+   TValueObjects = class (TObject)
+   public
+      function ID():String;
+   private
+
+   end;
+
+implementation
+
+{ TValueObjectsE }
+
+function TValueObjects.ID():String;
+var
+   uuid: TGuid;
+begin
+   Result := (TGUID.NewGuid.ToString());
+end;
+
+end.

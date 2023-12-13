@@ -1,0 +1,24 @@
+unit ValueObjects;
+
+interface
+
+uses
+   system.SysUtils;
+type
+   TValueObjects = class (TObject)
+   public
+      function ID(ID: String):String;
+   private
+
+   end;
+
+implementation
+
+{ TValueObjectsE }
+
+function TValueObjects.ID(ID: String):String;
+begin
+
+end;
+
+end.

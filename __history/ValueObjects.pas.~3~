@@ -1,0 +1,17 @@
+unit ValueObjects;
+
+interface
+
+uses
+   system.SysUtils;
+type
+   TValueObjectsE = class (TObject)
+   public
+
+   private
+
+   implementation
+
+   end;
+
+end.

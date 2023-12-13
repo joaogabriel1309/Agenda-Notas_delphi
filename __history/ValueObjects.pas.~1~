@@ -1,0 +1,15 @@
+unit ValueObjects;
+
+interface
+   uses
+      system.SysUtils
+   type
+
+   public
+
+   private
+   procedure ID();
+
+implementation
+
+end.
